@@ -370,7 +370,7 @@ h3 {
 
 .img4 {
   right: 10%;
-  top: 10%;
+  top: 15%;
   transform: rotateX(30deg);
   animation: flying4 2s linear infinite;
 }
