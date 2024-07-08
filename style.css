@@ -348,7 +348,7 @@ h3 {
 }
 
 .img1 {
-  top: 10%;
+  top: 17%;
   left: 10%;
   transform: rotateX(30deg) rotateZ(20deg);
   animation: flying1 2s linear infinite;
