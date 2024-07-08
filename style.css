@@ -144,9 +144,11 @@ body::before {
   padding: 5px; /* Optional: for better visual padding */
   overflow: hidden;
   margin-top: 20px;
+  backdrop-filter: blur(10px);
 }
 
 .ca span {
+    
   height: 100px !important;
   word-wrap: break-word; /* Ensure words break to the next line */
   white-space: normal; /* Allow text to wrap to the next line */
