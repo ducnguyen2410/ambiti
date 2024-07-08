@@ -140,17 +140,21 @@ body::before {
 }
 
 .ca {
-  display: block; /* Ensure it behaves like a block-level element */
+  justify-content: center;
+  align-items: center;
+  display: flex; /* Ensure it behaves like a block-level element */
   width: 100%; /* Set a fixed width */
   padding: 5px; /* Optional: for better visual padding */
   overflow: hidden;
   margin-top: 20px;
   backdrop-filter: blur(10px);
+  border-radius: 10px;
 }
 
 .ca span {
-    
+    text-align: center;
   height: 100px !important;
+  align-content: center;
   word-wrap: break-word; /* Ensure words break to the next line */
   white-space: normal; /* Allow text to wrap to the next line */
   width: 100% !important;
@@ -251,7 +255,7 @@ h3 {
 }
 
 .text {
-    text-align: center;
+  text-align: center;
 }
 
 .socials-img a img {
